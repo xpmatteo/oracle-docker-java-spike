@@ -1,0 +1,20 @@
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // This dependency is found on compile classpath of this component and consumers.
+    implementation 'com.google.guava:guava:26.0-jre'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
+
+// Define the main class for the application
+mainClassName = 'it.xpug.oracle.Main'
