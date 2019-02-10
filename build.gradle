@@ -9,12 +9,10 @@ repositories {
 }
 
 dependencies {
-    // This dependency is found on compile classpath of this component and consumers.
     implementation 'com.google.guava:guava:26.0-jre'
+    implementation files('lib/ojdbc8-full/ojdbc8.jar')
 
-    // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
 
-// Define the main class for the application
 mainClassName = 'it.xpug.oracle.Main'
