@@ -1,6 +1,6 @@
 
+WHENEVER SQLERROR EXIT FAILURE;
 
-drop table employees;
 create table employees (
   first_name varchar(30),
   last_name varchar(30)
