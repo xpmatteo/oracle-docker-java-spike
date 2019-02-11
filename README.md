@@ -12,9 +12,13 @@ Run oracle with
 
     script/oracle-run.sh
 
+Wait until `docker ps` shows that the `mydb` container status is "healthy".
+
 Create the local databases with:
 
     script/create-local-databases.sh
+
+If you see "bash: sqlplus: command not found", it is probably because the Oracle container status is not yet "healthy".
 
 Run the java app with
 

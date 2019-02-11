@@ -10,7 +10,7 @@ repositories {
 
 dependencies {
     implementation 'com.google.guava:guava:26.0-jre'
-    implementation files('lib/ojdbc8-full/ojdbc8.jar')
+    implementation files('lib/ojdbc8.jar')
 
     testImplementation 'junit:junit:4.12'
 }
