@@ -21,6 +21,8 @@ Create the local databases with:
 
 If you see "bash: sqlplus: command not found", it is probably because the Oracle container status is not yet "healthy".
 
+If you see "ORA-12514: TNS:listener does not currently know of service requested in connect", then you should wait another 10 seconds or so and try again.
+
 Run the java app with
 
     ./gradlew run
