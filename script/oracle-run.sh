@@ -2,7 +2,6 @@
 
 set -e
 cd $(dirname $0)/..
-
 source script/lib/common.sh
 
 docker run -d -it --name $ORACLE_CONTAINER_NAME \

@@ -4,7 +4,8 @@ Example of how to
   * run an Oracle DB in docker, 
   * automatically create an application user and a test user 
   * automatically create the database schema in the app and test databases
-  * connect to it in a Java program.
+  * using liquibase to manage schema migration
+  * connect to the db from a Java program.
 
 Download the Oracle JDBC driver from Oracle, and put `ojdbc8.jar` in the `lib` folder.
 
