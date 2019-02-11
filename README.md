@@ -6,6 +6,8 @@ Example of how to
   * automatically create the database schema in the app and test databases
   * connect to it in a Java program.
 
+Download the Oracle JDBC driver from Oracle, and put `ojdbc8.jar` in the `lib` folder.
+
 Run oracle with
 
     script/oracle-run.sh
