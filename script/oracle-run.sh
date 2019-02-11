@@ -17,10 +17,9 @@ while ! docker ps -l | grep -q healthy; do
   sleep 1
 done
 
-echo "Instance claims to be healthy; waiting another 10 seconds for extra safety"
+echo "Instance claims to be healthy; waiting another 20 seconds to make sure"
 
-# wait another 10 seconds
-n=10
+n=20
 while [[ $n -gt 0 ]]; do
   echo $n
   n=$(( $n - 1 ))
